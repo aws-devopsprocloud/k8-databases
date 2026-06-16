@@ -3,7 +3,8 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: redis 
+  name: redis
+  namespace: roboshop  
 spec:
   selector:
     matchLabels:
