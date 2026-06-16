@@ -5,7 +5,7 @@ metadata:
   name: mongodb 
 spec:
   ports:
-  - protocol: tcp 
+  - protocol: TCP 
     port: 27017
     targetPort: 27017
   clusterIP: None
