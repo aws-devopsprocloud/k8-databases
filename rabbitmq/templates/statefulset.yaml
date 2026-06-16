@@ -29,7 +29,7 @@ spec:
             name: rabbitmq 
         volumeMounts:
         - name: rabbitmq
-          mountPath: /data
+          mountPath: /var/lib/mysql
   volumeClaimTemplates:
   - metadata:
       name: rabbitmq 
